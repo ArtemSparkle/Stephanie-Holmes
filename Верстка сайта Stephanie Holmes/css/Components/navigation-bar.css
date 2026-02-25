@@ -1,0 +1,41 @@
+.NavigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 36px;
+    border-radius: 20px;
+    background-color: var(--bg-roel);
+}
+.serch {
+    display: flex;
+    gap: 24px;
+}
+
+.NavigationBar-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+.NavigationBar-links-paragraf {
+    display: flex;
+    color: var(--bg-mist);
+    font-size: var(--size-standart);
+    font-family: var(--font-mans-med);
+}
+.NavigationBar-links-svg {
+    width: 8px;
+    height: 8px;
+}
+.NavigationBar-links-batoon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px 10px 14px;
+    border-radius: 20px;
+    border: 1px var(--bg-mist) solid;
+}
+.NavigationBar-links-svg-butoon {
+  width: 10px;
+  height: 10px;
+}

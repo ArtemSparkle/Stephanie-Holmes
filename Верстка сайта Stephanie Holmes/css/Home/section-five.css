@@ -1,0 +1,53 @@
+.section-five {
+  display:flex;
+  background-color: var(--bg-mist);
+  border-radius: 40px;
+  width: 1400px;
+  max-width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 60px 40px;
+}
+.section-five-zagolowok-h {
+  font-size: var(--size-header);
+  color: var(--fon-color);
+  font-family: var(--font-mans-med);
+}
+.section-five-liks {
+  display: flex;
+  flex-direction: column;
+  width: 715px;
+  max-width: 100%;
+  
+}
+.section-five-links-one {
+  border-top: 1px solid var(--bg-pulse);
+}
+.section-five-links-one,
+.section-five-links-two,
+.section-five-links-tree,
+.section-five-links-four {
+  border-bottom: 1px solid var(--bg-pulse);
+  padding: 20px 0px;
+}
+.section-five-links-one-links {
+  display: flex;
+  justify-content: space-between;
+}
+.section-five-links-one-text-vector {
+  margin: 9px;
+  width: 18px;
+  height: 18px;
+}
+.section-five-links-one-text-zagolovok {
+  font-size: 22px;
+  line-height: 35.2px;
+  color: var(--fon-color);
+  font-family: var(--font-mans-med);
+}
+.section-five-links-one-text-paragraf {
+  font-size: var(--size-standart);
+  color: var(--fon-color);
+  line-height: 160%;
+  font-family: var(--font-mans-reg);
+}
