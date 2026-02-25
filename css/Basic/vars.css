@@ -1,0 +1,15 @@
+:root {
+    --bg-mist: #e9deff;
+    --fon-color: #0B001A;
+    --bg-white: #fff;
+    --bg-roel: #1E0044;
+    --bg-pulse: #170034;
+    --bg-six: #56514D;
+    --size-standart: 14px;
+    --size-header: 50px;
+    --size-wot-tak: 34px;
+    --font-geo: Georgia;
+    --font-geo-ital: Georgia italic;
+    --font-mans-med: Montserrat Medium;
+    --font-mans-reg: Montserrat Regular;
+}

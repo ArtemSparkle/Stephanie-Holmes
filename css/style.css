@@ -1,0 +1,19 @@
+/* базовые стили */
+@import 'basic/reset.css';
+@import 'basic/fonts.css';
+@import 'basic/vars.css';
+@import 'basic/global.css';
+
+
+/* Home */
+@import 'home/header.css';
+@import 'home/section-two.css';
+@import 'home/section-tree.css';
+@import 'home/section-four.css';
+@import 'home/section-five.css';
+@import 'home/section-six.css';
+
+/* Components */
+@import 'components/footer.css';
+@import 'components/navigation-bar.css';
+@import 'components/btn.css';
