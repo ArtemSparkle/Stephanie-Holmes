@@ -8,51 +8,61 @@
   </head>
   <body>
     <div class="container">
+      <!-- header -->
       <header class="header">
-        <div class="NavigationBar">
-          <img src="images/navbar-brand.svg" />
-          <div class="serch">
-            <a href="" class="NavigationBar-links">
-              <p class="NavigationBar-links-paragraf">LINKEDIN</p>
-              <img src="images/arrow.svg" class="NavigationBar-links-svg" />
+        <nav class="nav">
+          <a href="" class="nav__logo">
+            <img src="images/navbar-brand.svg" alt="Stephanie Holmes Logo" />
+          </a>
+
+          <div class="nav__lists">
+
+            <a href="" class="nav__lists-links">
+              <p class="nav__lists-links-text">LINKEDIN</p>
+              <img src="images/arrow.svg" class="nav__lists-links-svg" />
             </a>
-            <a href="" class="NavigationBar-links">
-              <p class="NavigationBar-links-paragraf">TWITTER</p>
-              <img src="images/arrow.svg" class="NavigationBar-links-svg" />
+
+            <a href="" class="nav__lists-links">
+              <p class="nav__lists-links-text">TWITTER</p>
+              <img src="images/arrow.svg" class="nav__lists-links-svg" />
             </a>
-            <a href="" class="NavigationBar-links">
-              <p class="NavigationBar-links-paragraf">DRIBBLE</p>
-              <img src="images/arrow.svg" class="NavigationBar-links-svg" />
+
+            <a href="" class="nav__lists-links">
+              <p class="nav__lists-links-text">DRIBBLE</p>
+              <img src="images/arrow.svg" class="nav__lists-links-svg" />            
             </a>
+
           </div>
-          <a href="" class="NavigationBar-links-batoon">
-            <p class="NavigationBar-links-paragraf">LET'S TALK</p>
+
+          <a href="" class="nav__links-batoon">
+            <p class="nav__lists-links-text">LET'S TALK</p>
             <img
               src="images/arrow.svg"
-              class="NavigationBar-links-svg-butoon"
+              class="nav__links-batoon-svg"
             />
           </a>
-        </div>
+        </nav>
       </header>
-
-      <div class="main">
-        <div class="mainh">
-          <h1 class="beautiful-text">
-            I create <span class="beautiful">beautiful</span> experiences
+      <!-- nain section under the header and part of the header -->
+      <main class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            I create <span class="hero__title-highlight">beautiful</span> experiences
           </h1>
-          <p class="Iwork">
+          <p class="hero__subtitle">
             I work with people all over the world to create tailor-made Webflow
             experiences
           </p>
         </div>
-        <div class="mainfooter">
-          <p class="header-paragraf-end">Available for freelance work</p>
-          <a href="#next-section" class="scroll-btn">
-            <img src="images/image.svg" class="header-images-skroll" />
-          </a>
+        <div class="hero__footer">
+          <p class="hero__footer-availability">Available for freelance work</p>
+            <a href="#next-section" class="hero__scroll">
+              <img src="images/image.svg" class="hero__scroll-icon" />
+            </a>
         </div>
-      </div>
-
+      </main>
+      
+      <!-- Section two -->
       <section class="section-two" id="next-section">
         <div class="Development">
           <p class="Development_h">Development</p>
@@ -89,7 +99,7 @@
         </div>
       </section>
 
-      <div class="section_tree">
+      <section class="section_tree">
         <div class="section_tree_images">
           <img src="images/image-wrapper.png" alt="" />
         </div>
@@ -117,9 +127,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="section_four">
+      <section class="section_four">
         <div class="section_four_text">
           <div class="section_four_text_text">
             <div class="section_four_text_text_header">
@@ -159,9 +169,9 @@
           />
         </div>
         <img src="images/badge.png" class="section_four_images_wrapp" />
-      </div>
+      </section>
 
-      <div class="section-five">
+      <section class="section-five">
         <div class="section-five-zagolowok">
           <h1 class="section-five-zagolowok-h">Awards</h1>
         </div>
@@ -227,9 +237,9 @@
             </a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="section-six">
+      <footer class="section-six">
         <div class="section-six-header">
           <img src="images/navbar-brand.svg" class="section-six-header-logo" />
           <div class="section-six-header-links">
@@ -262,7 +272,7 @@
             Available for freelance work
           </p>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>

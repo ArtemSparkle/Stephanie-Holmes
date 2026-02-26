@@ -105,9 +105,9 @@
 }
 .section_four_images_wrapp {
   position: absolute;
-  top: 67px;
+  top: 20%;
   left: 45%;
-  right: 45%
+  right: 45%;
 }
 
 .section_four_text_text_footer_link {

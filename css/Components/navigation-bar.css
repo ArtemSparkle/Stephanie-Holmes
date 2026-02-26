@@ -1,41 +1,45 @@
-.NavigationBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 36px;
-    border-radius: 20px;
-    background-color: var(--bg-roel);
-}
-.serch {
-    display: flex;
-    gap: 24px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 36px;
+  border-radius: 20px;
+  background-color: var(--bg-roel);
 }
 
-.NavigationBar-links {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    
+.nav__lists {
+  display: flex;
+  gap: 24px;
 }
-.NavigationBar-links-paragraf {
-    display: flex;
-    color: var(--bg-mist);
-    font-size: var(--size-standart);
-    font-family: var(--font-mans-med);
+
+.nav__lists-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
-.NavigationBar-links-svg {
-    width: 8px;
-    height: 8px;
+
+.nav__lists-links-text {
+  display: flex;
+  color: var(--bg-mist);
+  font-size: var(--size-standart);
+  font-family: var(--font-mans-med);
 }
-.NavigationBar-links-batoon {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 14px 10px 14px;
-    border-radius: 20px;
-    border: 1px var(--bg-mist) solid;
+
+.nav__lists-svg {
+  width: 8px;
+  height: 8px;
 }
-.NavigationBar-links-svg-butoon {
+
+.nav__links-batoon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px 10px 14px;
+  border-radius: 20px;
+  border: 1px var(--bg-mist) solid;
+}
+
+.nav__links-batoon-svg {
   width: 10px;
   height: 10px;
 }
